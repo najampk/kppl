@@ -8,9 +8,24 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import Head from "next/head";
 export default function Contact_us() {
   return (
     <div className="mt-20 px-6 grid sm:grid-cols-2 gap-5 py-20 max-w-[1080px] mx-auto w-full">
+     <Head>
+        <title>Contact Us | Khyber Petroleum Pvt Ltd.</title>
+        <meta name="description" content="Get in touch with Khyber Petroleum Pvt Ltd. for business inquiries, investment opportunities, and more. Our registered and head office addresses, email, and phone number are available for your convenience." />
+        <meta name="keywords" content="Khyber Petroleum, Contact, Investment Opportunities, Lubricants, Engineering Consultant, Lahore" />
+        <meta name="author" content="Khyber Petroleum Pvt Ltd." />
+        <meta property="og:title" content="Contact Us | Khyber Petroleum Pvt Ltd." />
+        <meta property="og:description" content="Contact Khyber Petroleum Pvt Ltd. for business inquiries and investment opportunities in Lahore." />
+        <meta property="og:image" content="/petrol.jpg" />
+        <meta property="og:url" content="https://www.kppl.pk/contact" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us | Khyber Petroleum Pvt Ltd." />
+        <meta name="twitter:description" content="Reach out to Khyber Petroleum Pvt Ltd. for business and investment opportunities." />
+        <meta name="twitter:image" content="/petrol.jpg" />
+      </Head>
       <div>
         <h1 className="text-left uppercase  sm:text-2xl text-xl font-bold text-slate-900 my-4">
           Khyber Petroleum Pvt Ltd.

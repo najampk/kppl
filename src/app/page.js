@@ -3,10 +3,25 @@ import Our_value from "./components/ourValue";
 import Our_Journey from "./components/ourJourney";
 import Our_vision from "./components/ourVision";
 import Our_Mission from "./components/ourMission";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
       <div className="relative mt-20 d-flex justify-center items-center">
+      <Head>
+        <title>Home | Khyber Petroleum Pvt Ltd.</title>
+        <meta name="description" content="Welcome to Khyber Petroleum Pvt Ltd. Discover our journey, values, and vision as a leading petroleum company in Pakistan, expanding our services and product range to meet growing demands." />
+        <meta name="keywords" content="Khyber Petroleum, Home, Petroleum Company, Pakistan, Fuel Supply, Petrol Pumps, Lubricants, Engineering Consultancy" />
+        <meta name="author" content="Khyber Petroleum Pvt Ltd." />
+        <meta property="og:title" content="Home | Khyber Petroleum Pvt Ltd." />
+        <meta property="og:description" content="Learn more about Khyber Petroleum Pvt Ltd., our mission, and our expansion plans in the petroleum industry across Pakistan." />
+        <meta property="og:image" content="/kppl-cover-1024x680.jpg" />
+        <meta property="og:url" content="https://www.kppl.pk/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Home | Khyber Petroleum Pvt Ltd." />
+        <meta name="twitter:description" content="Explore Khyber Petroleum Pvt Ltd. and our commitment to providing top-quality petroleum products and services in Pakistan." />
+        <meta name="twitter:image" content="/kppl-cover-1024x680.jpg" />
+      </Head>
         <div className="relative">
           <Image
             src="/kppl-cover-1024x680.jpg"

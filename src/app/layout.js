@@ -7,8 +7,8 @@ import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Khyber Petroleum Pvt Ltd | Oil & Gas Company",
-  description: "Khyber Petroleum (Pvt.) Ltd. has been established as a Petroleum company in Pakistan. Our traditional business model is based on the accomplishment of fuel.",
+  title: "Khyber Petroleum",
+  description: "Khyber Petroleum PVT LTD",
 };
 
 export default function RootLayout({ children }) {
