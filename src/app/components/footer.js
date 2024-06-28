@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="bg-neutral-800 h-full py-4">
-          <ul className="flex flex-wrap w-full sm:mx-auto mx-2 text-sm justify-center md:gap-6 gap-3 py-2">
+          <ul className="flex flex-wrap w-full sm:mx-auto mx-0 text-sm justify-center md:gap-6 gap-3 py-2">
             <li className="text-neutral-400 uppercase hover:text-white">
               <Link href="/">Home</Link>
             </li>
@@ -76,7 +76,10 @@ export default function Footer() {
               <Link href="/investors-relations">Invertor Realtions</Link>
             </li>
             <li className="text-neutral-400 uppercase hover:text-white">
-              <Link href="/contact-us">cONTACT uS</Link>
+              <Link href="/contact-us">Contact Us</Link>
+            </li> 
+            <li className="text-neutral-400 uppercase hover:text-white">
+              <Link href="/sitemap">Sitemap</Link>
             </li>            
           </ul>
           <div className="text-white text-center">Copyright 2024 ©<strong> Khyber Petroleum</strong> Pvt Ltd.</div>
