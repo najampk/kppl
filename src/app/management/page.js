@@ -38,14 +38,73 @@ export default function Management() {
       <h1 className="text-left uppercase  sm:text-2xl text-xl font-bold text-slate-900 my-4">
         Directors KPPL Pvt Ltd.
       </h1>
-      <ul className="list-disc list-inside space-y-2">
-        <li className="text-lg text-gray-700 hover:text-gray-900">
-          Mr. Abrar Jillani
-        </li>
-        <li className="text-lg text-gray-700 hover:text-gray-900">
-          Mr. Sohail Ahmed Naseem
-        </li>
-      </ul>
+        
+          
+                        {/* <!-- Founder Message Homepage 1 --> */}
+                        <div className="container w-full my-12 mx-auto md:px-6">
+                          {/* <!-- Section: Design Block --> */}
+
+
+                            <div className="grid xl:grid-cols-2 gap-x-6">
+
+
+                            <section className="mb-8 text-center md:text-left">
+                            <div
+                              className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+                              
+                              
+                                <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
+
+                                
+
+                                      <div className="xl:w-80 xl:h-80 w-60 h-60 mx-auto rounded-full bg-cover" style={{backgroundImage:"url('sohail-ahmad-naseem-khyber-petroleum-owner.webp')"}}>
+
+                                      </div>
+
+
+                                  <div className="px-6 py-12 md:px-12 text-center">
+                                    <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+                                    Sohail Ahmad Naseem 
+                                    </h2>
+                                     
+                                  
+                                    
+                                    
+                                  </div>
+                                </div>
+                            
+                            </div>
+                          </section>
+
+                          <section className="mb-8 text-center md:text-left">
+                            <div
+                              className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+                              
+                              
+                                <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
+
+                                
+
+                                      <div className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover" style={{backgroundImage:"url('abrar-jilani-khyber-petroleum-director.webp')"}}>
+
+                                      </div>
+
+
+                                  <div className="px-6 py-12 md:px-12 text-center">
+                                  <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+                                    Abrar Jilani
+                                    </h2>
+                                    
+                                    
+                                    
+                                  </div>
+                                </div>
+                            
+                            </div>
+                          </section>
+                          
+                              </div>
+                            </div>
     </div>
   );
 }
