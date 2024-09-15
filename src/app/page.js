@@ -144,7 +144,7 @@ export default function Home() {
                                   <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
                                     Abrar Jilani
                                     </h2>
-                                    <p className="mb-4 font-semibold">Cheif Executive Officer @ Khyber Petroleum</p>
+                                    <p className="mb-4 font-semibold">Chief Executive Officer @ Khyber Petroleum</p>
                                     <p className="mb-6 relative ">
                                     <svg
                                             className="absolute top-0 left-0 transform -translate-x-3 -translate-y-6 h-8 w-8 text-slate-300"
