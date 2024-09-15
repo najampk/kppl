@@ -93,6 +93,47 @@ export default function Home() {
             {/* <!-- Section: Design Block --> */}
 
             <div className="grid xl:grid-cols-2 gap-x-6">
+
+              
+            <section className="mb-8 text-center md:text-left">
+                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+                  <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
+                    <div
+                      className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('abrar-jilani-khyber-petroleum-director.webp')",
+                      }}
+                    ></div>
+
+                    <div className="px-6 py-12 md:px-12 text-center">
+                      <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
+                        Abrar Jilani
+                      </h2>
+                      <p className="mb-4 font-semibold">
+                        Chief Executive Officer @ KPPL
+                      </p>
+                      <p className="mb-6 relative ">
+                        <svg
+                          className="absolute top-0 left-0 transform -translate-x-3 -translate-y-6 h-8 w-8 text-slate-300"
+                          fill="currentColor"
+                          viewBox="0 0 32 32"
+                          aria-hidden="true"
+                        >
+                          <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                        </svg>{" "}
+                        As CEO of Khyber Petroleum Pvt Ltd, I am focused on
+                        driving excellence and sustainability in the energy
+                        sector. We are committed to providing efficient,
+                        reliable services while fostering innovation to meet
+                        future energy demands. Our goal is to power progress for
+                        our customers and communities.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
               <section className="mb-8 text-center md:text-left">
                 <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
                   <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
@@ -121,7 +162,7 @@ export default function Home() {
                         >
                           <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                         </svg>
-                        As the Owner of Khyber Petroleum Pvt Ltd, I am proud to
+                        As the Director of Khyber Petroleum Pvt Ltd, I am proud to
                         lead a company dedicated to providing top-quality oil
                         and gas solutions across Pakistan. Our mission is to
                         fuel progress through innovation, reliability, and
@@ -132,44 +173,6 @@ export default function Home() {
                 </div>
               </section>
 
-              <section className="mb-8 text-center md:text-left">
-                <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
-                  <div className="w-full shrink-0 grow-0 basis-auto pt-10 ">
-                    <div
-                      className="xl:w-80 xl:h-80 w-60 h-60  mx-auto rounded-full bg-cover"
-                      style={{
-                        backgroundImage:
-                          "url('abrar-jilani-khyber-petroleum-director.webp')",
-                      }}
-                    ></div>
-
-                    <div className="px-6 py-12 md:px-12 text-center">
-                      <h2 className="mb-2 text-3xl font-bold text-primary dark:text-primary-400">
-                        Abrar Jilani
-                      </h2>
-                      <p className="mb-4 font-semibold">
-                        Chief Executive Officer @ Khyber Petroleum
-                      </p>
-                      <p className="mb-6 relative ">
-                        <svg
-                          className="absolute top-0 left-0 transform -translate-x-3 -translate-y-6 h-8 w-8 text-slate-300"
-                          fill="currentColor"
-                          viewBox="0 0 32 32"
-                          aria-hidden="true"
-                        >
-                          <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                        </svg>{" "}
-                        As Director of Khyber Petroleum Pvt Ltd, I am focused on
-                        driving excellence and sustainability in the energy
-                        sector. We are committed to providing efficient,
-                        reliable services while fostering innovation to meet
-                        future energy demands. Our goal is to power progress for
-                        our customers and communities.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </div>
           </div>
 
